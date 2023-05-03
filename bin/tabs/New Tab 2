@@ -1,0 +1,32 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("NTNACN", "Ocean")
+local Tab = Window:NewTab("Main")
+local ChangerSection = Tab:NewSection("PSXChanger")
+ChangerSection:NewButton("PsxChanger", "It changes ur Pet(only works for huges/exclusives)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/Changer"))()
+end)
+local TradeSection = Tab:NewSection("Trade Scam")
+TradeSection:NewButton("Trade Scam", "It Dupes the pet u wanna trade", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/xWcXQ3QB%22"))()
+end)
+local InfSection = Tab:NewSection("Infinity Jump")
+InfSection:NewButton("Infinity Jump", "u can jump forever", function()
+local Player = game:GetService'Players'.LocalPlayer;
+local UIS = game:GetService'UserInputService';
+
+_G.JumpHeight = 50;
+
+function Action(Object, Function) if Object ~= nil then Function(Object); end end
+
+UIS.InputBegan:connect(function(UserInput)
+    if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+        Action(Player.Character.Humanoid, function(self)
+            if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+                Action(self.Parent.HumanoidRootPart, function(self)
+                    self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+                end)
+            end
+        end)
+    end
+end)
+end)
